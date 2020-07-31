@@ -1,5 +1,7 @@
 {
-    "env": {},
-    "componentsDefaultDirectory": "components/{name}",
+    "env": {
+        "compiler": "bit.envs/compilers/react-typescript@3.1.56"
+    },
+    "componentsDefaultDirectory": "src/components/{name}",
     "packageManager": "npm"
 }

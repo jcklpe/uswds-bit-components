@@ -8,13 +8,12 @@
     "@testing-library/user-event": "^7.2.1",
     "@trussworks/react-uswds": "^1.8.0",
     "node-sass": "^4.14.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+
     "react-scripts": "3.4.1"
   },
   "peerDependencies": {
-    "react": ">=16.9.0",
-    "react-dom": ">=16.9.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "styles-components": ">=4.0.0",
     "@storybook/react": ">=5.2.0"
   },
@@ -38,5 +37,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react-typescript@3.1.56"
+    },
+    "componentsDefaultDirectory": "src/components/{name}",
+    "packageManager": "npm"
   }
 }

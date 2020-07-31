@@ -1,13 +1,11 @@
 import React from 'react';
-import './App.scss';
+import './App.css';
+import '@trussworks/react-uswds/lib/uswds.css';
+import '@trussworks/react-uswds/lib/index.css';
 
-import { Alert } from "@trussworks/react-uswds";
-// import { Link } from 'react-router-dom'
-import {
 
-  NavMenuButton,
-
-} from '@trussworks/react-uswds'
+import { NavMenuButton } from '@trussworks/react-uswds';
+import  AlertWrapper  from './components/alert';
 
 
 function App() {
@@ -18,9 +16,7 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-        <Alert type="error" heading="this is an alert" >
-          BINGO!
-        </Alert>
+<AlertWrapper></AlertWrapper>
 
         <NavMenuButton
               label="Menu"
